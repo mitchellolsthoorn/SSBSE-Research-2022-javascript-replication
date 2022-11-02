@@ -1,0 +1,23 @@
+export {}
+import {get} from "../../.syntest/instrumented/benchmark/top10npm/moment/src/lib/moment/get-set.js";
+const chai = require('chai');
+const chaiAsPromised = require('chai-as-promised');
+const expect = chai.expect;
+chai.use(chaiAsPromised);
+
+describe('get', () => {
+	it('test for get', async () => {
+		const _isValidw5Uf9QU = false;
+		const _returnValueZXbiot3 = true;
+		const _localeLkrFCON = () => { return _returnValueZXbiot3 };
+		const _returnValuejT3x4MC = "6VqYqcxJ9gbd3WOnQ8Vr4Nps4sK9vab8dAc6VTh6Rvv9VgL8Y28mFP3d8RvU";
+		const _localeDataCoubNs0 = () => { return _returnValuejT3x4MC };
+		const _momAVzgTfs = {
+			"isValid": _isValidw5Uf9QU,
+		"locale": _localeLkrFCON,
+		"localeData": _localeDataCoubNs0
+	}
+		const _unitquGxRY8 = 3.2469983533607945;
+		const _returnValueXrY9LYV = await get(_momAVzgTfs, _unitquGxRY8)
+	});
+})

@@ -1,0 +1,13 @@
+export {}
+import {fromNow} from "../../.syntest/instrumented/benchmark/top10npm/moment/src/lib/moment/from.js";
+const chai = require('chai');
+const chaiAsPromised = require('chai-as-promised');
+const expect = chai.expect;
+chai.use(chaiAsPromised);
+
+describe('fromNow', () => {
+	it('test for fromNow', async () => {
+		const _withoutSuffixhrZFCDH = 7.797867212236721;
+		const _returnValueZxJDG4Q = await fromNow(_withoutSuffixhrZFCDH)
+	});
+})
